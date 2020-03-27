@@ -19,5 +19,13 @@ namespace NetExercise.Test.Basic
             Assert.AreEqual(exercise01.Ucln(30, 48), 6);
         }
 
+        [TestMethod]
+        public void Test_Bcnn()
+        {
+            var exercise01 = new Exercise01();
+            Assert.AreEqual(exercise01.Bcnn(6, 8), 24);
+            Assert.AreEqual(exercise01.Bcnn(30, 48), 240);
+        }
+
     }
 }

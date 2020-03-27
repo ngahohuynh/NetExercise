@@ -24,5 +24,10 @@ namespace NetExericise.Basic
 
             return a + b;
         }
+
+        public int Bcnn(int a, int b)
+        {
+            return a * b / Ucln(a, b);
+        }
     }
 }
