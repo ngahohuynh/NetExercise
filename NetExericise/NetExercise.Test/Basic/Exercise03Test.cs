@@ -18,11 +18,5 @@ namespace NetExercise.Test.Basic
             Assert.AreEqual(exercise03.PrimeFactors(600), "2 * 2 * 2 * 3 * 5 * 5");
         }
 
-        [TestMethod]
-        public void Test_PrimeFactors_PrimeNumbers()
-        {
-            var exercise03 = new Exercise03();
-            Assert.AreEqual(exercise03.PrimeFactors(8191), "8191");
-        }
     }
 }
