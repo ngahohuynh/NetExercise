@@ -29,9 +29,10 @@ namespace NetExericise.Basic
             do
             {
                 mid = (left + right) / 2;
+                if (Func(mid, n) == 0) break;
                 if (Func(left, n) * Func(mid, n) < 0) right = mid;
                 else left = mid;
-            } while (Func(mid, n) != 0 || left - right < e);
+            } while ((left - right) * (left - right) > e * e);
 
             return mid;
         }

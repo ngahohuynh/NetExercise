@@ -15,7 +15,7 @@ namespace NetExercise.Test.Basic
         public void Test_CalculateSqrt()
         {
             var exercise09 = new Exercise09();
-            Assert.AreEqual(exercise09.CalculateSqrt(9, 0.01), 3);
+            Assert.AreEqual(exercise09.CalculateSqrt(9, 0.01), 3, 0.01);
             Assert.AreEqual(exercise09.CalculateSqrt(2, 0.0001), Math.Sqrt(2), 0.0001);
         }
 
