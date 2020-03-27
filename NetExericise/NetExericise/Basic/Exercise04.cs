@@ -10,10 +10,10 @@ namespace NetExericise.Basic
     {
         public string FiboNacciLessThanN(int n)
         {
-            List<int> fiboList = new List<int>() { 1, 1 };
+            var fiboList = new List<int>() { 1, 1 };
 
-            int len = fiboList.Count();
-            int sum = fiboList[len - 2] + fiboList[len - 1];
+            var len = fiboList.Count();
+            var sum = fiboList[len - 2] + fiboList[len - 1];
 
             while(sum <= n)
             {
