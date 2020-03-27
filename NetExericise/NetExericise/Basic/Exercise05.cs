@@ -32,8 +32,7 @@ namespace NetExericise.Basic
                 temp /= 10;
             }
 
-            if (sum == n) return true;
-            return false;
+            return sum == n;
         }
     }
 }
