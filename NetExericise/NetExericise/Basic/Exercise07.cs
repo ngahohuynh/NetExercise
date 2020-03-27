@@ -10,7 +10,7 @@ namespace NetExericise.Basic
     {
         public int Factorial(int n)
         {
-            var list = Enumerable.Range(1, n).ToList();
+            var list = Enumerable.Range(1, n);
 
             return list.Aggregate<int, int>(1, (factorial, num) => factorial *= num);
         }
