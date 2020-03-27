@@ -48,6 +48,7 @@
     <Compile Include="Basic\Exercise06.cs" />
     <Compile Include="Basic\Exercise04.cs" />
     <Compile Include="Basic\Exercise07.cs" />
+    <Compile Include="Basic\Exercise08.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
