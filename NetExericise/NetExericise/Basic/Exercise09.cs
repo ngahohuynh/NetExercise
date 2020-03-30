@@ -39,7 +39,7 @@ namespace NetExericise.Basic
 
         double Func(double x, double n)
         {
-            return Math.Pow(x, 2) - n;
+            return x * x - n;
         }
     }
 }
