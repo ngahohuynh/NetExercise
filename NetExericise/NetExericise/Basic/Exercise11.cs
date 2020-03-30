@@ -15,10 +15,7 @@ namespace NetExericise.Basic
             while (n > 0)
             {
                 m <<= 1;
-                if ((int)(n & 1) == 1)
-                {
-                    m ^= 1;
-                }
+                m ^= (n & 1);
                 n >>= 1;
             }
 
