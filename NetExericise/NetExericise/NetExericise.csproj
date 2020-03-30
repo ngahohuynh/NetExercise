@@ -49,6 +49,7 @@
     <Compile Include="Basic\Exercise04.cs" />
     <Compile Include="Basic\Exercise07.cs" />
     <Compile Include="Basic\Exercise08.cs" />
+    <Compile Include="Basic\Exercise17.cs" />
     <Compile Include="Basic\Exercise16.cs" />
     <Compile Include="Basic\Exercise15.cs" />
     <Compile Include="Basic\Exercise14.cs" />
