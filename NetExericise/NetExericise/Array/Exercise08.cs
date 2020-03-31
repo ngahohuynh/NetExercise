@@ -10,8 +10,7 @@ namespace NetExericise.Array
     {
         public int CountNumbers(int[] arr)
         {
-            //return arr.Count(x => x % 3 == 0 && x % 5 != 0);
-            return arr.Where(x => x % 3 == 0 && x % 5 != 0).Count();
+            return arr.Count(x => x % 3 == 0 && x % 5 != 0);
         }
     }
 }
