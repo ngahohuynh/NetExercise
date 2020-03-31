@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\Exercise02.cs" />
     <Compile Include="Basic\Exercise01.cs" />
     <Compile Include="Basic\Exercise02.cs" />
     <Compile Include="Basic\Exercise03.cs" />
@@ -59,8 +60,6 @@
     <Compile Include="Demo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Array\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
