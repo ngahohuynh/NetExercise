@@ -10,17 +10,7 @@ namespace NetExericise.Array
     {
         public int OddEvenDifference(int[] arr)
         {
-            return arr.Sum(i =>
-            {
-                if (i % 2 == 0)
-                {
-                    return i;
-                }
-                else
-                {
-                    return -i;
-                }
-            });
+            return arr.Sum(x => (1 - 2 * (x % 2)) * x);
         }
     }
 }
