@@ -16,15 +16,19 @@ namespace NetExericise.Array
             foreach (var num in arr)
             {
                 if (!dict.ContainsKey(num))
+                {
                     dict.Add(num, 1);
+                }
 
                 else if (dict[num] == 1)
-                    dict[num]++;
-
-                else
                 {
-                    if (!result.Contains(num))
-                        result.Add(num);
+                    dict[num]++;
+                }
+
+                else if (dict[num] == 2)
+                {
+                    dict[num]++;
+                    result.Add(num);
                 }
             }
 
