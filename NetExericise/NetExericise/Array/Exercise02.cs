@@ -10,8 +10,7 @@ namespace NetExericise.Array
     {
         public int MaxTripletSum(int[] arr)
         {
-            var sortedArr = arr.OrderByDescending(num => num).ToArray();
-            return sortedArr[0] + sortedArr[1] + sortedArr[2];
+            return arr.OrderByDescending(num => num).Take(3).Sum();
         }
     }
 }
