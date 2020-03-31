@@ -10,7 +10,6 @@ namespace NetExericise.Array
     {
         public string LongestIncreasingSubArray(int[] arr)
         {
-            var result = new List<int>();
             var len = 1;
             var max = 1;
             var index = 0;
@@ -36,11 +35,7 @@ namespace NetExericise.Array
                 index = arr.Length - max;
             }
 
-            for (var i = index; i < index + max; i++)
-            {
-                result.Add(arr[i]);
-            }
-
+            var result = arr.Skip(index).Take(max);
 
             return string.Join(" ", result);
         }
