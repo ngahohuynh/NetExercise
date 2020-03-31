@@ -51,6 +51,7 @@
     <Compile Include="Basic\Exercise07.cs" />
     <Compile Include="Basic\Exercise08.cs" />
     <Compile Include="Basic\Exercise11.cs" />
+    <Compile Include="Basic\Exercise10.cs" />
     <Compile Include="Basic\Exercise17.cs" />
     <Compile Include="Basic\Exercise16.cs" />
     <Compile Include="Basic\Exercise15.cs" />
@@ -60,6 +61,8 @@
     <Compile Include="Demo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Array\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -22,7 +22,7 @@ namespace NetExericise.Basic
         bool IsPalindrome(int n)
         {
             var charArr = n.ToString().ToCharArray();
-            Array.Reverse(charArr);
+            System.Array.Reverse(charArr);
             return n == Convert.ToInt32(new string(charArr));
         }
 

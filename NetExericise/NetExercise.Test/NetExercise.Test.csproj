@@ -63,6 +63,7 @@
     <Compile Include="Basic\Exercise07Test.cs" />
     <Compile Include="Basic\Exercise08Test.cs" />
     <Compile Include="Basic\Exercise11Test.cs" />
+    <Compile Include="Basic\Exercise10Test.cs" />
     <Compile Include="Basic\Exercise17Test.cs" />
     <Compile Include="Basic\Exercise16Test.cs" />
     <Compile Include="Basic\Exercise15Test.cs" />
@@ -80,6 +81,9 @@
       <Project>{53a39764-5303-4696-a612-5bfb4f71a7e3}</Project>
       <Name>NetExericise</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Array\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
