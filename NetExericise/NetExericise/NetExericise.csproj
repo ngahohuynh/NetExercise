@@ -44,6 +44,7 @@
     <Compile Include="Array\Exercise02.cs" />
     <Compile Include="Array\Exercise01.cs" />
     <Compile Include="Array\Exercise05.cs" />
+    <Compile Include="Array\Exercise06.cs" />
     <Compile Include="Basic\Exercise01.cs" />
     <Compile Include="Basic\Exercise02.cs" />
     <Compile Include="Basic\Exercise03.cs" />
