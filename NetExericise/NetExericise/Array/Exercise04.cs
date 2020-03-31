@@ -10,13 +10,7 @@ namespace NetExericise.Array
     {
         public int SumOfPrimeNumbers(int[] arr)
         {
-            return arr.Sum(i => {
-                if (IsPrime(i))
-                {
-                    return i;
-                }
-                return 0;
-            });
+            return arr.Where(x => IsPrime(x)).Sum();
         }
 
         bool IsPrime(int n)
