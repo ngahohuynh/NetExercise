@@ -10,12 +10,17 @@ namespace NetExericise.Array
     {
         public int SumOfSquareNumbers(int[] arr)
         {
-            return arr.Where(x => IsPerfectSquare(x)).Sum();
+            return arr.Where(IsPerfectSquare).Sum();
         }
 
-        bool IsPerfectSquare(int x)
+        bool IsPerfectSquare(int n)
         {
-            return Math.Sqrt(x) - Math.Floor(Math.Sqrt(x)) == 0;
+            for(var i = 1; i * i <= n; i++)
+            {
+                if (n % i == 0 && n / i == i)
+                    return true;
+            }
+            return false;
         }
     }
 }
