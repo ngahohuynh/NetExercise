@@ -10,8 +10,7 @@ namespace NetExericise.String
     {
         public string TitleCaseToSnakeCase(string s)
         {
-            return string.Concat(s.Select((x, i) =>
-                i > 0 && char.IsUpper(x) ? "_" + x.ToString() : x.ToString()))
+            return string.Concat(s.Select((x, i) => (i > 0 && char.IsUpper(x) ? "_" : "") + x))
                 .ToLower();
         }
     }
