@@ -10,6 +10,8 @@ namespace NetExericise.String
     {
         public string SnakeCaseToTitleCase(string s)
         {
+            if (string.IsNullOrEmpty(s)) return s;
+
             var sb = new StringBuilder();
             sb.Append(char.ToUpper(s[0]));
 
@@ -17,8 +19,11 @@ namespace NetExericise.String
             {
                 if (s[i] == '_')
                 {
-                    sb.Append(char.ToUpper(s[i + 1]));
-                    i++;
+                    if (i < s.Length - 1)
+                    {
+                        sb.Append(char.ToUpper(s[i + 1]));
+                        i++;
+                    }
                 }
                 else
                 {

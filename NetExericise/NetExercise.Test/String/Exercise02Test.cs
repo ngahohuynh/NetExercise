@@ -15,7 +15,7 @@ namespace NetExercise.Test.String
         public void Test_SnakeCaseToTitleCase()
         {
             var exercise02 = new Exercise02();
-            Assert.AreEqual(exercise02.SnakeCaseToTitleCase("snake_case"), "SnakeCase");
+            Assert.AreEqual(exercise02.SnakeCaseToTitleCase("snake_case_"), "SnakeCase");
         }
     }
 }
