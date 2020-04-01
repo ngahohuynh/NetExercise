@@ -55,7 +55,11 @@
   <ItemGroup>
     <Compile Include="Array\Exercise02Test.cs" />
     <Compile Include="Array\Exercise01Test.cs" />
+    <Compile Include="Array\Exercise05Test.cs" />
+    <Compile Include="Array\Exercise04Test.cs" />
+    <Compile Include="Array\Exercise03Test.cs" />
     <Compile Include="Array\Exercise06Test.cs" />
+    <Compile Include="Array\Exercise08Test.cs" />
     <Compile Include="Basic\Exercise01Test.cs" />
     <Compile Include="Basic\Exercise02Test.cs" />
     <Compile Include="Basic\Exercise03Test.cs" />
@@ -75,6 +79,8 @@
     <Compile Include="Basic\Exercise12Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="String\Exercise02Test.cs" />
+    <Compile Include="String\Exercise01Test.cs" />
+    <Compile Include="String\Exercise03Test.cs" />
     <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
