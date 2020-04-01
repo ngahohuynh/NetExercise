@@ -18,7 +18,7 @@ namespace NetExericise.Basic
             return string.Join(", ", result);
         }
 
-        void Traverse(List<string> result, StringBuilder ip, int segment, int start, String s)
+        void Traverse(List<string> result, StringBuilder ip, int segment, int start, string s)
         {
             if (segment == 4)
             {
