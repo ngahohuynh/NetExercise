@@ -78,6 +78,7 @@
     <Compile Include="Basic\Exercise13Test.cs" />
     <Compile Include="Basic\Exercise12Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String\Exercise01Test.cs" />
     <Compile Include="String\Exercise03Test.cs" />
     <Compile Include="UnitTest1.cs" />
   </ItemGroup>
