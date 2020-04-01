@@ -12,11 +12,10 @@ namespace NetExercise.Test.Array
     public class Exercise09Test
     {
         [TestMethod]
-        public void Test_GenerateIncreasingArray()
+        public void Test_GenerateArray()
         {
             var exercise09 = new Exercise09();
-            var list = exercise09.GenerateIncreasingArray(20);
-            Assert.IsTrue(list.All(x => x >= 1 && x <= 20));
+            CollectionAssert.AreEqual(exercise09.GenerateArray(10), new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 });
         }
     }
 }

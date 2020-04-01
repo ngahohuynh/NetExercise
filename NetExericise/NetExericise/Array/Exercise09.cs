@@ -8,19 +8,9 @@ namespace NetExericise.Array
 {
     public class Exercise09
     {
-        public List<int> GenerateIncreasingArray(int n)
+        public List<int> GenerateArray(int n)
         {
-            var rand = new Random();
-            var result = new List<int>();
-
-            for(var i = 0; i < n; i++)
-            {
-                result.Add(rand.Next(1, n + 1));
-            }
-
-            result.OrderBy(x => x);
-
-            return result;
+            return Enumerable.Range(1, n).ToList();
         }
     }
 }
