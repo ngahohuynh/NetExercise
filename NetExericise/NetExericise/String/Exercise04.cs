@@ -13,21 +13,21 @@ namespace NetExericise.String
             var sum = 0;
             var number = 0;
 
-            for (var i = 0; i < s.Length; i++)
+            foreach (var ch in s)
             {
-                if (char.IsNumber(s[i]))
+                if (char.IsNumber(ch))
                 {
-                    number = number * 10 + (s[i] - '0');
+                    number = number * 10 + (ch - '0');
                 }
 
-                if (i == s.Length - 1 || !char.IsNumber(s[i + 1]))
+                else
                 {
                     sum += number;
                     number = 0;
                 }
             }
 
-            return sum;
+            return sum + number;
         }
     }
 }
