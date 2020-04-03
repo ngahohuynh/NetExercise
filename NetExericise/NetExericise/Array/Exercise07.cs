@@ -10,13 +10,10 @@ namespace NetExericise.Array
     {
         public List<List<int>> ChunkArray(int[] arr, int n)
         {
-            var result = new List<List<int>>();
-            for (var i = 0; i < (float)arr.Length / n; i++)
-            {
-                result.Add(arr.Skip(i * n).Take(n).ToList());
-            }
-
-            return result;
+            return Enumerable.Range(0, arr.Length)
+                .GroupBy(x => x / n)
+                .Select(x => arr.Skip(x.Key * n).Take(n).ToList())
+                .ToList();
         }
     }
 }
