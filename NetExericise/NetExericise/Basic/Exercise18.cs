@@ -8,7 +8,7 @@ namespace NetExericise.Basic
 {
     public class Exercise18
     {
-        readonly int[] LoopConst = { 4, 16, 37, 58, 89, 145, 42, 20 };
+        readonly int[] LoopConst = { 4, 16, 37, 58, 89, 145, 42 };
 
         public bool IsHappyNumber(int n)
         {
