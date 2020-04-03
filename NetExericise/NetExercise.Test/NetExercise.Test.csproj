@@ -83,6 +83,7 @@
     <Compile Include="String\Exercise04Test.cs" />
     <Compile Include="String\Exercise01Test.cs" />
     <Compile Include="String\Exercise03Test.cs" />
+    <Compile Include="String\Exercise10Test.cs" />
     <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
