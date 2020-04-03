@@ -10,15 +10,8 @@ namespace NetExericise.Array
     {
         public List<int> GenerateArray(int n)
         {
-            var set = new HashSet<int>();
-            var rand = new Random();
-
-            while(set.Count < n)
-            {
-                set.Add(rand.Next(1, n + 1));
-            }
-
-            return set.ToList();
+            var random = new Random();
+            return Enumerable.Range(1, n).OrderBy(x => random.Next()).ToList();
         }
     }
 }

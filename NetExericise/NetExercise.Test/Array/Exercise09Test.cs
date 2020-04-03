@@ -19,6 +19,7 @@ namespace NetExercise.Test.Array
 
             Assert.AreEqual(list.Count, 20);
             Assert.IsTrue(list.All(x => x >= 1 && x <= 20));
+            Assert.IsTrue(list.Distinct().Count() == 20);
         }
     }
 }
