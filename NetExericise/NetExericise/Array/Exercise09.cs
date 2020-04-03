@@ -11,7 +11,7 @@ namespace NetExericise.Array
         public List<int> GenerateArray(int n)
         {
             var random = new Random();
-            return Enumerable.Range(1, n).OrderBy(x => random.Next()).ToList();
+            return Enumerable.Range(1, n).OrderBy(x => random.Next(100)).ToList();
         }
     }
 }
