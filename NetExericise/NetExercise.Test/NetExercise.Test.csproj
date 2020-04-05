@@ -86,6 +86,7 @@
     <Compile Include="String\Exercise04Test.cs" />
     <Compile Include="String\Exercise01Test.cs" />
     <Compile Include="String\Exercise03Test.cs" />
+    <Compile Include="String\Exercise09Test.cs" />
     <Compile Include="String\Exercise06Test.cs" />
     <Compile Include="String\Exercise08Test.cs" />
     <Compile Include="String\Exercise05Test.cs" />
