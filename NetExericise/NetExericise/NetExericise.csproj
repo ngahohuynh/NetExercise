@@ -74,6 +74,7 @@
     <Compile Include="String\Exercise04.cs" />
     <Compile Include="String\Exercise01.cs" />
     <Compile Include="String\Exercise03.cs" />
+    <Compile Include="String\Exercise08.cs" />
     <Compile Include="String\Exercise05.cs" />
     <Compile Include="String\Exercise10.cs" />
   </ItemGroup>
